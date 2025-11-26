@@ -1,48 +1,48 @@
 
 
-\## NeuroSync
+## NeuroSync
 
 
 
-\# NeuroSync - Documentação do Projeto
+# NeuroSync - Documentação do Projeto
 
 
 
-\## Integrantes
+## Integrantes
 
-\- RM: 560227
+- RM: 560227
 
-\- RM: 559613  
+- RM: 559613  
 
-\- RM: 560992
+- RM: 560992
 
 
 
-\## Sobre o Projeto
+## Sobre o Projeto
 
 O NeuroSync é uma plataforma de monitoramento neurológico que utiliza sensores IoT para capturar sinais cerebrais em tempo real. A solução processa e armazena dados neurológicos na nuvem para análise médica e pesquisa.
 
 
 
-\## O que Foi Implementado
+## O que Foi Implementado
 
 
 
-\### Infraestrutura Azure
+### Infraestrutura Azure
 
-\- \*\*2 Máquinas Virtuais\*\* provisionadas na Azure
+- 2 Máquinas Virtuais provisionadas na Azure
 
-\- \*\*VM Linux\*\*: Ubuntu Server com Node-RED e Mosquitto MQTT
+VM Linux Ubuntu Server com Node-RED e Mosquitto MQTT
 
-\- \*\*VM Windows\*\*: Windows Server com API Java
+VM Windows: Windows Server com API Java
 
-\- Todas as VMs no mesmo Resource Group e Rede Virtual
+ Todas as VMs no mesmo Resource Group e Rede Virtual
 
 
 
-\### Configuração de Rede
+### Configuração de Rede
 
-\- \*\*Network Security Group\*\* configurado com as portas:
+Network Security Group configurado com as portas:
 
 &nbsp; - 22 (SSH - Linux)
 
