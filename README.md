@@ -58,35 +58,35 @@ Network Security Group configurado com as portas:
 
 
 
-\### Software Instalado
+### Software Instalado
 
 
 
-\#### VM Linux
+#### VM Linux
 
-\- Mosquitto MQTT Broker
+ Mosquitto MQTT Broker
 
-\- Node-RED
+ Node-RED
 
-\- Node.js
-
-
-
-\#### VM Windows  
-
-\- Java SDK 17
-
-\- API Spring Boot (.jar)
-
-\- Conexão com Oracle Database
+ Node.js
 
 
 
-\## 2. Arquitetura do Sistema
+#### VM Windows  
+
+- Java SDK 17
+
+- API Spring Boot (.jar)
+
+- Conexão com Oracle Database
 
 
 
-\### Diagrama de Fluxo
+## 2. Arquitetura do Sistema
+
+
+
+### Diagrama de Fluxo
 
 ```
 
@@ -132,57 +132,45 @@ Network Security Group configurado com as portas:
 
 
 
-\### Fluxo de Dados Numerado:
+### Fluxo de Dados Numerado:
 
-1\. \*\*👤 → 🖥️\*\* - App Mobile → API Java (Porta 8080)
+1. 👤 → 🖥️ - App Mobile → API Java (Porta 8080)
 
-2\. \*\*⚡ → 🐧\*\* - Wokwi IoT → Broker MQTT (Porta 1883)  
+2.⚡ → 🐧 - Wokwi IoT → Broker MQTT (Porta 1883)  
 
-3\. \*\*🐧 → 🖥️\*\* - Node-RED → API Java (Porta 8080)
+3. 🐧 → 🖥️ - Node-RED → API Java (Porta 8080)
 
-4\. \*\*🖥️ → 🗄️\*\* - API Java → Banco Oracle (Porta 1521)
-
-
-
-\## Tecnologias Utilizadas
-
-\- Microsoft Azure
-
-\- Ubuntu Server 22.04
-
-\- Windows Server 2022
-
-\- Java 17
-
-\- Spring Boot
-
-\- Node-RED
-
-\- Mosquitto MQTT
-
-\- Oracle Database
+4. 🖥️ → 🗄️- API Java → Banco Oracle (Porta 1521)
 
 
 
-\## Resultados
+## Tecnologias Utilizadas
 
-\- Sistema completo funcionando em produção
+- Microsoft Azure
 
-\- Comunicação end-to-end implementada
+- Ubuntu Server 22.04
 
-\- Dados persistindo no Oracle Database
+- Windows Server 2022
 
-\- Aplicação acessível via internet
+- Java 17
+
+- Spring Boot
+
+- Node-RED
+
+- Mosquitto MQTT
+
+- Oracle Database
 
 
 
-\## Links
+## Links
 
-\- Vídeo Demonstração: https://youtu.be/yXd07\_uP2nQ
+- Vídeo Demonstração: https://youtu.be/yXd07\_uP2nQ
 
 
 
 ---
 
-\*\*FIAP - 2TDSPS - 2025\*\*
+FIAP - 2TDSPS - 2025
 
